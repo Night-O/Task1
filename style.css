@@ -1,0 +1,122 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url("back.png");  
+    background-size: cover;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: #0a0a4b;
+}
+
+a{
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.contact{
+    color: #ca57cb;
+}
+
+.hello{
+    color: #ca57cb;
+    font-weight: 900;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+}
+
+.box {
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.submit {
+    background-color: #ca57cb;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: 80px;
+    font-size: 15px;
+}
+
+.b1{
+    margin-left: 80px;
+}
+
+.b2{
+    margin-left: 150px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp{
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.in{
+    background-color: #464691;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    height: 35px;
+    margin-right: 5px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5; 
+    padding-left: 10px;
+  }
+
+#message{
+    height: 200px;
+    width: 413px;
+}
+
+.icon{
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ 
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
